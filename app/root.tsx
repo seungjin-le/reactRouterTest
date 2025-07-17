@@ -51,7 +51,7 @@ export function ErrorBoundary({ error } : any) {
   }
 
   return (
-    <main className="pt-16 p-4 container mx-auto">
+    <main className="flex-row-center">
       <h1>{message}</h1>
       <p>{details}</p>
       {stack && (
