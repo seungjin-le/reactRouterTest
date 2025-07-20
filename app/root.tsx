@@ -8,7 +8,7 @@ import {
 } from "react-router";
 
 
-import "./app.css";
+import 'assets/styles/tailwindcss.css'
 import type { ReactNode } from "react";
 
 
