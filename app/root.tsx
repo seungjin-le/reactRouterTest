@@ -17,7 +17,7 @@ export function Layout({ children }: { children: ReactNode }) {
     <html lang="ko">
       <head>
         <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1 " />
         <Meta />
         <Links />
       </head>
@@ -43,7 +43,7 @@ export function ErrorBoundary({ error } : any) {
     message = error.status === 404 ? "404" : "Error";
     details =
       error.status === 404
-        ? "The requested page could not be found."
+        ? "404 Page"
         : error.statusText || details;
   } else if (import.meta.env.DEV && error && error instanceof Error) {
     details = error.message;
