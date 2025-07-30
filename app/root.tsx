@@ -1,8 +1,8 @@
 import {
   isRouteErrorResponse,
-  Links, type LinksFunction,
+  Links,
   Meta,
-  Outlet, Route,
+  Outlet,
   Scripts,
   ScrollRestoration,
 } from "react-router";
